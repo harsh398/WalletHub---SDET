@@ -34,4 +34,4 @@ public class Facebooklogin {
   
 <ul><li>Run Facebook/Wallethub tests with TestNG OR use testng.xml</li></ul>
 
-<b>Automation test results:</b> Check Video Folder: <b>WalletHub-Assignment/Video/Test Results.mp4</b>
+<b>Automation test results:</b> Check Video Folder: <b>WalletHub-Assignment/Video/
