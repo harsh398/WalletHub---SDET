@@ -1,16 +1,16 @@
-# WalletHub-Assignment
+# WalletHub-SDET - Assignment
 Submission of Wallethub initial Screening Test 
 
-<b>Automation part:</b>
 
-Completed with selenium + testng, 
+Completed with selenium + testng
 
 How to run it 
 
 <ul><li>Install: java jdk 1.8, chrome latest version</li> 
 	<li>git clone</li> 
-	<li>Build module WalletHub-app with Maven</li> 
-	<li>Resolve TODO (insert credentials for login/pass in tests class)</li></ul> 
+	<li>Import Project and run as Maven Project</li> 
+	<li>Build module /Install WalletHub-app with Maven</li> 
+	<li>insert credentials for login/pass in tests class</li></ul> 
 
 public class Facebooklogin {
  
@@ -25,13 +25,27 @@ public class Facebooklogin {
 	public static WebDriver driver;
 	static String baseurl="https://wallethub.com/join/light";
 	static String review_sub_url="http://wallethub.com/profile/test_insurance_company/";
-	//change username in below URL
+	
+	//change username in below URL in WalltHubReview at <b>Line 30</b>
 	static String review_verification_url="https://wallethub.com/profile/username/reviews/";
 	
-	//change username and password here for login
+	//change username and password here for login in WalltHubReview at <b>Line 33 and 34</b>
 	String username="";
 	String password="";
   
+  
+  public void DelReviewOnWalletHub(){
+  
+  	//change username in below URL in DelWalltHubReview2 at <b>Line 25</b>
+	static String review_verification_url="https://wallethub.com/profile/username/reviews/";
+	
+	//change username and password here for login in DelWalltHubReview2 at <b>Line 30 and 31</b>
+	String username="";
+	String password="";
+	
 <ul><li>Run Facebook/Wallethub tests with TestNG OR use testng.xml</li></ul>
 
-<b>Automation test results:</b> Check Video Folder: <b>WalletHub-Assignment/Video/
+
+<b> TO delete Posted Review :-<b>
+<ui><li> Run testng2.xml file run as <b>TESTNG</b> </li></ul>
+<b>Automation test results:</b> Check Video Folder: <b>WalletHub-Assignment/Video/</b>
