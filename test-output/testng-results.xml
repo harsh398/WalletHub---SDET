@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="WalletHubAssignment" duration-ms="93533" started-at="2019-09-03T17:12:06Z" finished-at="2019-09-03T17:13:39Z">
+    <groups>
+    </groups>
+    <test name="For Facebook" duration-ms="37031" started-at="2019-09-03T17:12:06Z" finished-at="2019-09-03T17:12:43Z">
+      <class name="tests.Facebooklogin">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.Facebooklogin@cb5822]" name="setup" is-config="true" duration-ms="13470" started-at="2019-09-03T22:42:06Z" finished-at="2019-09-03T22:42:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CanUserPostStatusOnFacebookHome()[pri:0, instance:tests.Facebooklogin@cb5822]" name="CanUserPostStatusOnFacebookHome" duration-ms="22492" started-at="2019-09-03T22:42:19Z" finished-at="2019-09-03T22:42:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanUserPostStatusOnFacebookHome -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.Facebooklogin@cb5822]" name="teardown" is-config="true" duration-ms="1041" started-at="2019-09-03T22:42:42Z" finished-at="2019-09-03T22:42:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CanUserPostStatusOnFacebookHome status=SUCCESS method=Facebooklogin.CanUserPostStatusOnFacebookHome()[pri:0, instance:tests.Facebooklogin@cb5822] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Facebooklogin -->
+    </test> <!-- For Facebook -->
+    <test name="For Wallethub" duration-ms="56454" started-at="2019-09-03T17:12:43Z" finished-at="2019-09-03T17:13:39Z">
+      <class name="tests.WalletHubReview">
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.WalletHubReview@6d4b1c02]" name="setup" is-config="true" duration-ms="14947" started-at="2019-09-03T22:42:43Z" finished-at="2019-09-03T22:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="CanPostReviewOnWalletHub()[pri:0, instance:tests.WalletHubReview@6d4b1c02]" name="CanPostReviewOnWalletHub" duration-ms="40615" started-at="2019-09-03T22:42:58Z" finished-at="2019-09-03T22:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CanPostReviewOnWalletHub -->
+        <test-method status="PASS" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.WalletHubReview@6d4b1c02]" name="teardown" is-config="true" duration-ms="885" started-at="2019-09-03T22:43:38Z" finished-at="2019-09-03T22:43:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CanPostReviewOnWalletHub status=SUCCESS method=WalletHubReview.CanPostReviewOnWalletHub()[pri:0, instance:tests.WalletHubReview@6d4b1c02] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.WalletHubReview -->
+    </test> <!-- For Wallethub -->
+  </suite> <!-- WalletHubAssignment -->
+</testng-results>
