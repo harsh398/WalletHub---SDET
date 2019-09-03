@@ -32,7 +32,8 @@ public class Facebooklogin {
 	//change username and password here for login in WalltHubReview at <b>Line 33 and 34</b>
 	String username="";
 	String password="";
-  
+  <b> To Run the Test :-<b>
+<ui><li> Run testng.xml file run as <b>TESTNG</b> </li></ul>
   
   public void DelReviewOnWalletHub(){
   
@@ -46,6 +47,6 @@ public class Facebooklogin {
 <ul><li>Run Facebook/Wallethub tests with TestNG OR use testng.xml</li></ul>
 
 
-<b> TO delete Posted Review :-<b>
+<b> To delete Posted Review :-<b>
 <ui><li> Run testng2.xml file run as <b>TESTNG</b> </li></ul>
 <b>Automation test results:</b> Check Video Folder: <b>WalletHub-Assignment/Video/</b>
