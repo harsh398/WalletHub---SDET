@@ -10,8 +10,8 @@ How to run it
 	<li>git clone</li> 
 	<li>Import Project and run as Maven Project</li> 
 	<li>Build module /Install WalletHub-app with Maven</li> 
-	<li>insert credentials for login/pass in tests class</li></ul> 
-	<li> PS: the chrome driver is Google Chrome 76 <li>
+	<li>insert credentials for login/pass in tests class</li>
+	<li> PS: the chrome driver is Google Chrome 76 </li></ul> 
 
 public class Facebooklogin {
  
