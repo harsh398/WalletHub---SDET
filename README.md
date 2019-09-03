@@ -47,6 +47,6 @@ public class Facebooklogin {
 
 
 
-<b> To delete Posted Review :-<b>
+<b> To delete Posted Review :-</b>
 <ui><li> Run testng2.xml file run as <b>TESTNG</b> </li></ul>
 <b>Automation test results:</b> Check Video Folder: <b>WalletHub-Assignment/Video/</b>
