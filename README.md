@@ -1,11 +1,9 @@
 # WalletHub-Assignment
 Submission of Wallethub initial Screening Test 
 
-<b>Manual part: Check Documents Folder</b> 
-
 <b>Automation part:</b>
 
-Completed with selenium + testng, Tested on Chrome only as maven project
+Completed with selenium + testng, 
 
 How to run it 
 
