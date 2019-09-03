@@ -32,7 +32,7 @@ public class Facebooklogin {
 	//change username and password here for login in WalltHubReview at <b>Line 33 and 34</b>
 	String username="";
 	String password="";
-  <b> To Run the Whole Test :-<b>
+  <b> To Run the Whole Test :-</b>
 <ui><li> Run testng.xml file run as <b>TESTNG</b> </li></ul>
   
   public void DelReviewOnWalletHub(){
