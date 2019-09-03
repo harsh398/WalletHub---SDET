@@ -7,7 +7,7 @@ Submission of Wallethub initial Screening Test
 
 Completed with selenium + testng, Tested on Chrome only as maven project
 
-How to run it (<b>Tested on Windows only</b>)
+How to run it 
 
 <ul><li>Install: java jdk 1.8, chrome latest version</li> 
 	<li>git clone</li> 
