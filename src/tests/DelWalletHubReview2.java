@@ -22,13 +22,13 @@ public class DelWalletHubReview2 {
 	static String baseurl="https://wallethub.com/join/light";
 	static String review_sub_url="http://wallethub.com/profile/test_insurance_company/";
 	//change username in below URL
-	static String review_verification_url="https://wallethub.com/profile/username/reviews/";
+	static String review_verification_url="https://wallethub.com/profile/harshd38/reviews/";
 	
 	
 	
 	//change username and password here for login
-	String username="";
-	String password="";
+	String username="harshd38@gmail.com";
+	String password="Jumper398@";
 	
 	
 	@BeforeMethod
